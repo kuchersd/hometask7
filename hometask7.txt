@@ -1,0 +1,2 @@
+ssh -D 4522 -p 4522 -i kucherenko.pub root@yoko.ukrtux.com
+ssh -R 14522:localhost:22 -p 4522 -i kucherenko.pub root@yoko.ukrtux.com
